@@ -7,5 +7,3 @@ for key, value in stats.items():
     max = value
     name = key
 print(f'Канал с максимальным объемом продаж: {name}')
-
-print(max(stats, key=stats.get)) # версия преподавателя Александра Бардина
